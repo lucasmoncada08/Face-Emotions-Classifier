@@ -1,2 +1,6 @@
 # Face-Emotions-Classifier
 Developed a model that could predict the emotions of an individual from a picture of them.
+
+This program written in python used the fastai library to predict whether an individual was happy, sad, or angry. This project could have interesting applications if further improved, such as playing upbeat music when a happy homeowner arrives at their house. I was inspired to create this mini-project by one of the early chapters of 21 lessons for the 21st century by Yuval Noah Harari wherein he writes about AI being able to respond to human emotions.
+
+In this project I utilized transfer learning from a resnet50 model pretrained on the imagenet dataset. The model was finetuned to better meet the needs of the problem. The dataset was collected from google image queries, which required some efforts to clean and organize. Furthermore, collecting the data from google images resulted in lower quality and lesser data which ended up being a limiting factor of the project. However, I still enabled the model to get around 80% accuracy on the validation set, which is somewhat good given a baseline prediction would have a 33% accuracy; nonetheless, this accuracy is far from optimal.
